@@ -102,8 +102,8 @@ pipeline {
                         fi
                     '''
                 }
-            } */
-        }
+            } 
+        }*/
         stage('Docker Build') {
             steps {
                 script {
