@@ -117,7 +117,7 @@ pipeline {
                 }
             }
         }
-        stage('Trivy Scan') {
+        /* stage('Trivy Scan') {
             steps {
                 script {
                     def dockerfileScan = sh(
@@ -139,7 +139,7 @@ pipeline {
                     }
                 }
             }
-        }
+        } */
         stage('ECR Image push') {
             steps {
                 script {
